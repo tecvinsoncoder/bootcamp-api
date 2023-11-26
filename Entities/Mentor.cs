@@ -7,6 +7,7 @@ namespace Demo.Entities
 {
     public class Mentor
     {
-        
+        public Guid Id {set; get;}
+        public string? FirstName {set; get;}
     }
 }
